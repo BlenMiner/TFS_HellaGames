@@ -16,9 +16,9 @@ public class TutorialServerCallbacks : Bolt.GlobalEventListener
             TutorialPlayerObjectRegistry.CreateServerPlayer();
             TutorialPlayerObjectRegistry.serverPlayer.Spawn();
         }
-        SpawnChests();
+        //SpawnChests();
         //TutorialPlayerObjectRegistry.SpawnUnistorm();
-        TutorialPlayerObjectRegistry.SpawnDonkey();
+        //TutorialPlayerObjectRegistry.SpawnDonkey();
     }
     void SpawnChests()
     {
@@ -83,7 +83,7 @@ public class TutorialServerCallbacks : Bolt.GlobalEventListener
 
     void spw()
     {
-        if (planes.Count > 0)
+        /*if (planes.Count > 0)
         {
             for (int i = 0; i < planes.Count; i++)
             {
@@ -113,7 +113,7 @@ public class TutorialServerCallbacks : Bolt.GlobalEventListener
                 }
 
             }
-        }
+        }*/
     }
 
     int nextAirdropTimeLeft;
